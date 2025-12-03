@@ -1,3 +1,7 @@
+# IMPORTANT - do not commit configs (.env has a token)
+.env
+emails.json
+
 # Logs
 logs
 *.log
