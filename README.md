@@ -1,5 +1,9 @@
 # Github Organization Invites
 
+This script uses the Github API to create invitations to a Github organization
+(e.g. "eecs280staff") and a single team (e.g. "Course Staff"). Users to invite
+are specified by a list of emails in a JSON file.
+
 ## Getting Started
 
 Ensure you have `node` (and `npm`) installed:
