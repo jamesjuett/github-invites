@@ -7,7 +7,7 @@ a member of the organization will be ignored).
 
 ## Getting Started
 
-Ensure you have `node` (and `npm`) installed:
+Ensure you have `node` installed:
 
 ```console
 sudo apt update
@@ -20,7 +20,7 @@ OR
 brew install nodejs
 ```
 
-If you already have node, make sure you have a somewhat recent version:
+If you already have `node`, make sure you have a somewhat recent version:
 
 ```console
 node --version
