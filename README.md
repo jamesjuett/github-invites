@@ -2,7 +2,8 @@
 
 This script uses the Github API to create invitations to a Github organization
 (e.g. "eecs280staff") and a single team (e.g. "Course Staff"). Users to invite
-are specified by a list of emails in a JSON file.
+are specified by a list of emails in a JSON file (any users that are already
+a member of the organization will be ignored).
 
 ## Getting Started
 
@@ -55,10 +56,13 @@ Edit the `emails.json` file to include the list of emails to invite. For example
 ```json
 [
   "uniqname1@umich.edu",
-  "uniqname1@umich.edu",
-  "uniqname1@umich.edu"
+  "uniqname2@umich.edu",
+  "uniqname3@umich.edu"
 ]
 ```
+
+The script checks if a user is already a member of the organization before sending an
+invite, so it's fine to include emails that may already be members.
 
 ## Running the Script
 
