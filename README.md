@@ -32,7 +32,7 @@ From the base directory of this repo, install dependencies using `npm`:
 npm install
 ```
 
-A post-install script should created template `.env` and `emails.json` files.
+A post-install script will create template `.env` and `emails.json` files.
 
 ## Github Configuration
 
